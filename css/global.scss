@@ -1,8 +1,16 @@
 * {
     box-sizing: border-box;
 }
-img {
-    width: 100%;
+// img {
+//     width: 100%;
+// }
+.topColor {
+    background: white;
+}
+
+.navBarPad {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 body {
@@ -13,12 +21,13 @@ body {
     background: white;
     padding: 10px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
-    height: 250px;
+    // height: 250px;
     border-radius: 2px;
     margin-bottom: 30px;
 
     img {
         margin-bottom: 15px;
+        width: 100%;
     }
     span {
         display: inline-block;
@@ -39,4 +48,18 @@ body {
     border-bottom: 1px solid #90A3B2;
     font-size: 12px;
     color: #777777;
+}
+
+.prevImage {
+    height: 15vw;
+}
+
+.sellerFont {
+    font-size: 12px;
+}
+
+.topList {
+    list-style: none;
+    color: #0192B5;
+    background-color: white;
 }
